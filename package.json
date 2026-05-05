@@ -1,0 +1,32 @@
+{
+  "name": "money_maker_admin_panel_Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "moment": "^2.30.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.7",
+    "nodemon": "^3.1.14",
+    "otpless-node-js-auth-sdk": "^1.0.8",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "redis": "^5.12.1",
+    "sequelize": "^6.37.8"
+  }
+}
