@@ -1,9 +1,10 @@
+require("dotenv").config({ path: __dirname + "/../../.env" });
 const serverConfig = require("./server.config")
 
 module.exports = {
   "development": {
     "username": serverConfig.DEVELOPMENT_DB.user,
-    "password": serverConfig.DEVELOPMENT_DB.pass,
+    "password": serverConfig.DEVELOPMENT_DB.pass || "1234",
     "database": serverConfig.DEVELOPMENT_DB.name,
     "host": serverConfig.DEVELOPMENT_DB.host,
     "dialect": "postgres"

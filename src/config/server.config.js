@@ -11,6 +11,9 @@ module.exports = {
         name: process.env.DEVELOPMENT_DATABASE,
         // port: process.env.DEVELOPMENT_PORT,
     },
+    BCRYPT: {
+        salt_rounds: process.env.SALT_ROUNDS
+    },
     // REDIS: {
     //     host: process.env.REDIS_HOST,
     //     password: process.env.REDIS_PASSWORD,
